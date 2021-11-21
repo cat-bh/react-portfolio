@@ -16,8 +16,6 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   const renderPage = () => {
-    // Add a switch statement that will return the appropriate component of the 'currentPage'
-    // YOUR CODE HERE
     switch(currentCategory) {
       case 'about': return <About/>;
       case 'contact': return <Contact/>;
