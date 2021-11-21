@@ -9,6 +9,7 @@ function Navigation(props) {
     } = props;
 
     return (
+        <nav>
         <ul className="flex-row">
             {categories.map(category => (
                 <li
@@ -25,6 +26,7 @@ function Navigation(props) {
                 </li>
             ))}
         </ul>
+        </nav>
     );
 }
 

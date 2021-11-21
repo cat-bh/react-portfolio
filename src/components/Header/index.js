@@ -9,7 +9,7 @@ function Header(props) {
     } = props;
 
     return (
-        <header className="flex-row px-1">
+        <header className="flex-row space-between">
             <h1>
                 <a href="/">Cat Heneghan</a>
             </h1>
