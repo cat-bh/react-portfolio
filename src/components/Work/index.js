@@ -26,7 +26,7 @@ function Work() {
             name: 'Tech Connect',
             image: 'tech-connect.png',
             github: 'https://github.com/cat-bh/tech-connect-blog',
-            app: '/'
+            app: 'https://stark-reef-71087.herokuapp.com/'
         },
         {
             name: 'Run Buddy',

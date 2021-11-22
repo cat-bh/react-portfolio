@@ -12,12 +12,12 @@ import Work from './components/Work';
 import Resume from './components/Resume';
 
 function App() {
-  const [categories] = useState(['about', 'contact', 'work', 'resume']);
+  const [categories] = useState(['about Me', 'contact', 'work', 'resume']);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
 
   const renderPage = () => {
     switch(currentCategory) {
-      case 'about': return <About/>;
+      case 'about Me': return <About/>;
       case 'contact': return <Contact/>;
       case 'work': return <Work/>;
       case 'resume': return <Resume/>;
