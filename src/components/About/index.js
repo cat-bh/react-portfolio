@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <section className="flex-row mb-5">
+        <section className="flex-row align-start mb-5">
             <img src={require(`../../assets/images/headshot.jpeg`).default} alt="Headshot of developer" className="headshot"></img>
             <div className="test-width">
                 <h2>Cat Heneghan</h2>
